@@ -28,18 +28,7 @@
 
 //2_1g Put the value 0x0 0BA9 8765 4321 into X18.
 2_1g:
-    addi x18, x0, 0
-    addi x18, x0, 0xBA
-    slli x18, x18, 8
-    addi x18, x18, 0x98
-    slli x18, x18, 8
-    addi x18, x18, 0x76
-    slli x18, x18, 8
-    addi x18, x18, 0x54
-    slli x18, x18, 8
-    addi x18, x18, 0x32
-    slli x18, x18, 4
-    addi x18, x18, 0x1
+    li x18 0xBA987654321
 
 //2_3a Load the value from address 0x0 0FFF FFFF FFFF into X20.
 2_3a: 
